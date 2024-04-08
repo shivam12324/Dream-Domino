@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+body {
+    background-color: #d2f1dd;
+}
+
+.hero_section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #108A00;
+    height: 60px;
+    position: sticky;
+    border: 2px solid black;
+}
+
+.hero_section_home {
+    height: 25px;
+    width: 25px;
+    /* background-color: white; */
+    color: white;
+    cursor: pointer;
+}
+
+.hero_section .hero_section_home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Abou_us {
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    transition: font-weight 250ms ease-in-out;
+}
+
+.Abou_us:hover {
+    color: rgb(0, 0, 0);
+    /* border-bottom: 3px solid black; */
+}
+
+.Services {
+    text-decoration: none;
+    background-color: none;
+    color: white;
+}
+
+.Services:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+.Portfolio {
+    text-decoration: none;
+    color: white;
+}
+.Portfolio:hover {
+    color: rgb(0, 0, 0);
+}
+
+.Our_Team {
+    text-decoration: none;
+    color: white;
+}
+.Our_Team:hover {
+    color: rgb(0, 0, 0);
+}
+.Blogs {
+    text-decoration: none;
+    color: white;
+}
+.Blogs:hover {
+    color: rgb(0, 0, 0);
+}
+
+.Contact_Us {
+    text-decoration: none;
+    color: white;
+}
+.Contact_Us:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* Main Content Video */
+
+.main_screen_video {
+    margin-top: 135px;
+    margin-right: 20px;
+    border: 2px solid #108A00;
+}
+
+.Intro_to_vikash {
+    margin-top: 200px;
+    margin-right: 40px;
+    margin-left: 40px;
+    /* border: 2px solid black; */
+}
+
+/* .Intro_Vikash {
+margin-left: 150px;
+} */
+
+.into_ops {
+    display: flex;
+}
+
+.Intro_Vikash {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+    display: flex;
+    /* align-items: center; */
+    margin-top: 20px;
+    font-family: "Poppins", sans-serif;
+}
